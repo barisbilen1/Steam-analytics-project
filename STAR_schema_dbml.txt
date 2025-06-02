@@ -1,0 +1,72 @@
+Table t_app_info {
+  appid INT64 [pk]
+  type STRING
+  name STRING
+  releasedate DATE
+  freetoplay INT64
+}
+
+Table t_app_languages_info {
+  appid INT64 [ref: > t_app_info.appid]
+  language STRING
+  language_count INT64
+}
+
+Table t_dev_info {
+  appid INT64 [ref: > t_app_info.appid]
+  developerfirm STRING
+}
+
+Table t_genre_info_long_format_summary {
+  appid INT64 [ref: > t_app_info.appid]
+  genre STRING
+}
+
+Table t_genre_info_onehot_enc {
+  appid INT64 [ref: > t_app_info.appid]
+  genre_Action INT64
+  genre_Casual INT64
+  genre_Free_to_play INT64
+  genre_Massively_Multiplayer INT64
+  genre_RPG INT64
+  genre_Racing_and_sports INT64
+  genre_Sexual_and_violence INT64
+  genre_Strategy INT64
+  genre_Utilities INT64
+}
+
+Table t_lang_occurence_count {
+  language STRING
+  lang_occurrence_count INT64
+}
+
+Table t_player_counts {
+  appid INT64 [ref: > t_app_info.appid]
+  date DATE
+  Playercount FLOAT64
+  year INT64
+  week INT64
+  week_start_date DATE
+}
+
+Table t_player_counts_enriched {
+  appid INT64 [ref: > t_app_info.appid]
+  date DATE
+  Playercount FLOAT64
+  year INT64
+  week INT64
+  week_start_date DATE
+  app_type STRING
+  app_name STRING
+  release_date DATE
+  is_free_to_play INT64
+  developer_firm STRING
+  count_of_language_available INT64
+  publisher STRING
+}
+
+Table t_publisher_info {
+  appid INT64 [ref: > t_app_info.appid]
+  publisher STRING
+}
+

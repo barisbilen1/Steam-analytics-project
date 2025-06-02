@@ -1,0 +1,11 @@
+# Ignore all folders named 'data' or 'cleaned_data' anywhere
+**/data/
+**/cleaned_data/
+
+# Ignore Python bytecode cache
+__pycache__/
+**/__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
