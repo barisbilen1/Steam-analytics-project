@@ -1,11 +1,11 @@
 # Steam analytics project
 
 Here in this repository, you will find my scripts and queries I wrote for analyzing Steam (software distribution platform for games) data and building a proper, version controlled pipeline harnessing the power of BigQuery, local environment, and Tableau.
-/ Baris Bilen - 03.06.2025
-
-## Using a Virtual Environment to Run Scripts and Generate Cleaned Data
+<br> <br> Baris Bilen - 03.06.2025
 
 Please follow the steps below to use a virtual environment and run the scripts to generate cleaned data:
+
+## Using a Virtual Environment to Run Scripts and Generate Cleaned Data
 
 1. **Create a project folder**:
    - On your Desktop, create a folder named `xomnia`.
