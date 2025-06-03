@@ -9,6 +9,7 @@ Please follow the steps below to use a virtual environment and run the scripts t
 
 1. **Create a project folder**:
    - On your Desktop, create a folder named `xomnia`.
+   - Write this directory you want to work in to "src/constants.py",
    - Inside that folder, create a subfolder called `data` and place all your raw `.csv` files there.
    - Open a terminal and navigate to the `xomnia` folder:
      ```bash
