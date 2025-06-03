@@ -1,0 +1,14 @@
+This file includes some general information about the files in my submission.
+
+1) README.md: Project's README. Follow the steps there in order to be able to run the codes.
+2) 4 Python scripts in src/ folder: Python codes I used for preprocessing.
+3) .flake8: flake8 configuration file
+4) .gitignore: .gitignore file
+5) create_bigquery_view.sql: View creation query I ran in BigQuery, to create my main View
+6) tableau_report_BQ.twb: the Tableau report containing my dashboards. It is an "Extract" so its data is attached to it.
+7) requirements.txt: Python dependencies
+8) schema_model.png: visual of my STAR schema data model
+9) STAR_schema.dbml: DBML expression that I used to generate the above visual in dbdiagram.io
+
+--> All these files currently reside in my private repository on GitHub. If you want to access them over GitHub, or want to clone the repo to your local, just let me know and 
+I will give access to the specified email addresses.

@@ -10,8 +10,7 @@ dev_info.developerfirm AS developer_firm,
 app_lang_info.language_count AS count_of_language_available,
 publisher_info.publisher AS publisher,
 price_info.Initialprice AS original_price,
-price_info.Discount / 100 AS discount_percentage,
-price_info.is_promotion
+price_info.Discount / 100 AS discount_percentage
 
 FROM bigquery-dbt-project-baris.xomnia_dataset.t_player_counts player_counts
 
@@ -29,9 +28,7 @@ ON player_counts.appid = app_lang_info.appid
 LEFT JOIN bigquery-dbt-project-baris.xomnia_dataset.t_publisher_info publisher_info
 ON player_counts.appid = publisher_info.appid
 
-LEFT JOIN (SELECT *,
-                  CASE WHEN Discount > 0 THEN 1 ELSE 0 END AS is_promotion
-           FROM bigquery-dbt-project-baris.xomnia_dataset.t_price_info) price_info
+LEFT JOIN bigquery-dbt-project-baris.xomnia_dataset.t_price_info price_info
 ON player_counts.appid = price_info.appid
 AND player_counts.date = price_info.date
 
