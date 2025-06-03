@@ -69,3 +69,10 @@ Table t_publisher_info {
   appid INT64 [ref: > t_app_info.appid]
   publisher STRING
 }
+
+Table t_price_info {
+  appid INT64 [ref: > t_app_info.appid]
+  Initialprice INT64
+  date DATE
+  Discount INT64
+}
