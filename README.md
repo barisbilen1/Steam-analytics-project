@@ -1,4 +1,5 @@
-# Using a Virtual Environment to Run Scripts and Generate Cleaned Data
+# Steam analytics project
+## Using a Virtual Environment to Run Scripts and Generate Cleaned Data
 
 Please follow the steps below to use a virtual environment and run the scripts to generate cleaned data:
 
