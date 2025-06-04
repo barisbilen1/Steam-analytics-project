@@ -6,7 +6,7 @@ I will give access to the specified email addresses.
 Most important ones are;
 1) README.md: Project's README. Follow the steps there in order to be able to run the codes.
 2) 4 Python scripts in src/ folder: Python codes I used for preprocessing the data.
-3) Xomnia_DAE_presentation: Presentation file.
+3) Xomnia_DAE_presentation_baris: Presentation file.
 4) create_bigquery_view.sql: View creation query I ran in BigQuery, to create my main View
 5) tableau_report_BQ.twbx: The Tableau report containing my dashboards. It is an "Extract" so its data is attached to it.
 
