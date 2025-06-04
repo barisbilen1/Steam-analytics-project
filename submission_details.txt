@@ -1,18 +1,19 @@
 This file includes some general information about the files in my submission.
 
+NOTE: All these files currently reside in my private repository on GitHub. If you want to access them over GitHub, and/or want to clone the repo to your local, just let me know and 
+I will give access to the specified email addresses.
+
 Most important ones are;
 1) README.md: Project's README. Follow the steps there in order to be able to run the codes.
 2) 4 Python scripts in src/ folder: Python codes I used for preprocessing the data.
-3) Xomnia_DAE_presentation: presentation file
+3) Xomnia_DAE_presentation: Presentation file.
 4) create_bigquery_view.sql: View creation query I ran in BigQuery, to create my main View
-5) tableau_report_BQ.twbx: the Tableau report containing my dashboards. It is an "Extract" so its data is attached to it.
+5) tableau_report_BQ.twbx: The Tableau report containing my dashboards. It is an "Extract" so its data is attached to it.
 
-others;
+others (supplementary files);
 6) .flake8: flake8 configuration file
 7) .gitignore: .gitignore file
 8) requirements.txt: Python dependencies
 9) schema_model.png: visual of my STAR schema data model
 10) STAR_schema.dbml: DBML expression that I used to generate the above visual in dbdiagram.io
 
---> All these files currently reside in my private repository on GitHub. If you want to access them over GitHub, or want to clone the repo to your local, just let me know and 
-I will give access to the specified email addresses.
