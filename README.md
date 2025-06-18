@@ -8,10 +8,10 @@ Please follow the steps below to use a virtual environment and run the scripts t
 ## Using a Virtual Environment to Run Scripts and Generate Cleaned Data
 
 1. **Create a project folder**:
-   - On your Desktop, create a folder named `xomnia`.
+   - On your Desktop, create a folder named `steam_data`.
    - Write this directory you want to work in to "src/constants.py",
    - Inside that folder, create a subfolder called `data` and place all your raw `.csv` files there.
-   - Open a terminal and navigate to the `xomnia` folder:
+   - Open a terminal and navigate to the `steam_data` folder:
      ```bash
      cd ~/Desktop/xomnia  # Adjust the path for your OS
      ```
