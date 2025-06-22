@@ -13,7 +13,7 @@ Please follow the steps below to use a virtual environment and run the scripts t
    - Inside that folder, create a subfolder called `data` and place all your raw `.csv` files there.
    - Open a terminal and navigate to the `steam_data` folder:
      ```bash
-     cd ~/Desktop/xomnia  # Adjust the path for your OS
+     cd ~/Desktop/steam_data  # Adjust the path for your OS
      ```
 
 2. **Create a virtual environment**:
